@@ -1,2 +1,3 @@
 # phpflash
-A simple library for flash messages.
+
+By [Joe Fallon](http://blog.joefallon.net) 
