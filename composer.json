@@ -1,0 +1,32 @@
+{
+    "name": "joefallon/phpflash",
+    "type": "library",
+    "description": "A simple library for flash messages.",
+    "keywords": [
+        "PHP",
+        "flash messages"
+    ],
+    "homepage": "https://github.com/joefallon/phpflash",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Joe Fallon",
+            "email": "joseph.t.fallon@gmail.com",
+            "homepage": "http://blog.joefallon.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0",
+        "joefallon/phpsession": "~3.0"
+    },
+    "require-dev": {
+        "joefallon/phpautoloader": "~2.0",
+        "joefallon/kisstest": "~1.0"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "JoeFallon": "src/"
+        }
+    }
+}
