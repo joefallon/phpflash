@@ -157,18 +157,18 @@ class FlashMessages
      * This function stores the "warning" flash message. If $storeInSession is set to true, then
      * the message is stored in the session. Otherwise, it is stored locally.
      *
-     * @param string $msg
+     * @param string $message
      * @param bool   $storeInSession
      */
-    public function storeWarningMessage($msg, $storeInSession = true)
+    public function storeWarningMessage($message, $storeInSession = true)
     {
         if($storeInSession == false)
         {
-            $this->_warningMessages[] = $msg;
+            $this->_warningMessages[] = $message;
         }
         else
         {
-            $this->storeMessageInSession($msg, self::WARNING_SESSION_KEY);
+            $this->storeMessageInSession($message, self::WARNING_SESSION_KEY);
         }
     }
 
