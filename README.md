@@ -105,6 +105,5 @@ $flash->storeInfoMessage('my info message', false);
 later on in the same request...
 
 ```php
-$flash = new FlashMessages();
 $infoMessages = $flash->retrieveInfoMessages();
 ```
