@@ -9,6 +9,7 @@ define('VEND_PATH', BASE_PATH . '/vendor');
 // Set the application include paths for autoloading.
 set_include_path(get_include_path() . ':' . SRC_PATH . ':' . BASE_PATH);
 
+/** @noinspection PhpIncludeInspection */
 require(VEND_PATH . '/autoload.php');
 
 AutoLoader::registerAutoLoad();
